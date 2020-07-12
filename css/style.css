@@ -1,0 +1,162 @@
+body {
+	font-family: 'PT Sans', sans-serif;
+}
+
+/*HEADER START*/
+header {
+	background-color: #fcdb00;
+	padding: 15px 0;
+}
+.navbar-bg {
+	background-color: #fcdb00;
+}
+.menu li a {
+	padding: 0 40px !important;
+	font-size: 22px;
+	font-weight: 700;
+	color: #010101 !important;
+	transition: .5s;
+}
+.menu li:last-child a {
+	padding-right: 0 !important;
+}
+.menu li a:hover {
+	color: #525252 !important;
+}
+/*HEADER END*/
+
+/*SLIDER START*/
+.slider {
+	background-color: #fcdb00;
+	padding: 15px 0;
+}
+.carousel-area {
+	padding-bottom: 90px;
+}
+.custom-indicators {
+	bottom: -75px;
+}
+.custom-indicators li {
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+}
+.carousel-content h1 {
+	font-size: 32px;
+	font-weight: 700;
+	color: #010101;
+}
+.carousel-content h2 {
+	padding: 10px 0;
+	font-size: 20px;
+	font-weight: 400;
+	color: #313841;
+}
+.carousel-content p {
+	padding-bottom: 10px;
+	color: #555555;
+	line-height: 1.4;
+}
+.slider-icon li {
+	font-size: 42px;
+	padding-right: 25px;
+}
+/*SLIDER END*/
+
+/*FEATURES SECTION START*/
+.features {
+	padding-top: 100px;
+}
+.heading {
+	font-size: 32px;
+	font-weight: 700;
+	color: #010101;
+}
+.sub-heading {
+	padding: 5px 10px;
+	font-size: 20px;
+	font-weight: 400;
+	color: #313841;
+	line-height: 1.4;
+}
+.section-content {
+	padding-top: 90px;
+}
+.single-content {
+	padding-bottom: 90px;
+}
+.content-icon i {
+	font-size: 50px;
+}
+.content-text h2 {
+	font-size: 22px;
+	font-weight: 700;
+	color: #010101;
+}
+.content-text p {
+	color: #898989;
+}
+/*FEATURES SECTION END*/
+
+/*CONTACT SECTION START*/
+.contact {
+	padding-top: 100px;
+	background-color: #232527;
+}
+.contact-h {
+	color: #fcdb00;
+}
+.contact-sh {
+	color: #898989;
+}
+.contact-form {
+	padding: 40px 45px;
+}
+.custom-fc {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	color: #898989;
+	padding: 25px;
+}
+.btn-custom {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	background-color: #fcdb00;
+	color: #010101;
+	text-transform: uppercase;
+	padding: 13px;
+	transition: .5s;
+}
+.btn-custom:hover {
+	background-color: #fff;
+}
+.contact-icon a {
+	font-size: 35px;
+	height: 50px;
+	width: 50px;
+	line-height: 50px;
+	display: block;
+	background-color: #fcdb00;
+	color: #010101;
+	border-radius: 8px;
+	transition: .5s;
+}
+.contact-icon a:hover {
+	background-color: #fff;
+}
+/*CONTACT SECTION END*/
+
+/*FOOTER SECTION START*/
+footer {
+	padding: 100px 0;
+	background-color: #232527;
+}
+.address p {
+	margin: 0;
+	color: #fff;
+}
+.footer-widget a {
+	color: #fff;
+}
+/*FOOTER SECTION END*/
